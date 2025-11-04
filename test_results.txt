@@ -1,0 +1,107 @@
+?   	github.com/cypherlabdev/data-normalizer-service/cmd/server	[no test files]
+=== RUN   TestNewOddsAggregator
+--- PASS: TestNewOddsAggregator (0.00s)
+=== RUN   TestUpdateOdds_SingleProvider
+--- PASS: TestUpdateOdds_SingleProvider (0.00s)
+=== RUN   TestUpdateOdds_MultipleProviders
+--- PASS: TestUpdateOdds_MultipleProviders (0.00s)
+=== RUN   TestUpdateOdds_ConfidenceCapAt1
+--- PASS: TestUpdateOdds_ConfidenceCapAt1 (0.00s)
+=== RUN   TestUpdateOdds_MultipleEvents
+--- PASS: TestUpdateOdds_MultipleEvents (0.00s)
+=== RUN   TestUpdateOdds_EmptyData
+--- PASS: TestUpdateOdds_EmptyData (0.00s)
+=== RUN   TestUpdateOdds_UpdateExisting
+--- PASS: TestUpdateOdds_UpdateExisting (0.00s)
+=== RUN   TestGetOdds_NotFound
+--- PASS: TestGetOdds_NotFound (0.00s)
+=== RUN   TestGetOdds_AfterUpdate
+--- PASS: TestGetOdds_AfterUpdate (0.00s)
+=== RUN   TestMakeKey
+=== RUN   TestMakeKey/normal_case
+=== RUN   TestMakeKey/with_dashes_in_IDs
+=== RUN   TestMakeKey/empty_IDs
+--- PASS: TestMakeKey (0.00s)
+    --- PASS: TestMakeKey/normal_case (0.00s)
+    --- PASS: TestMakeKey/with_dashes_in_IDs (0.00s)
+    --- PASS: TestMakeKey/empty_IDs (0.00s)
+=== RUN   TestAggregate_NilData
+--- PASS: TestAggregate_NilData (0.00s)
+=== RUN   TestAggregate_EmptyData
+--- PASS: TestAggregate_EmptyData (0.00s)
+=== RUN   TestUpdateOdds_ConcurrentAccess
+--- PASS: TestUpdateOdds_ConcurrentAccess (0.00s)
+=== RUN   TestUpdateOdds_MultipleMarkets
+--- PASS: TestUpdateOdds_MultipleMarkets (0.00s)
+=== RUN   TestUpdateOdds_ZeroOdds
+--- PASS: TestUpdateOdds_ZeroOdds (0.00s)
+=== RUN   TestAggregate_VeryHighLayOdds
+--- PASS: TestAggregate_VeryHighLayOdds (0.00s)
+PASS
+coverage: 31.9% of statements in ./internal/...
+ok  	github.com/cypherlabdev/data-normalizer-service/internal/aggregator	0.154s	coverage: 31.9% of statements in ./internal/...
+=== RUN   TestNewKafkaConsumer
+--- PASS: TestNewKafkaConsumer (0.00s)
+=== RUN   TestStart_Success
+--- PASS: TestStart_Success (0.00s)
+=== RUN   TestStart_ContextCancellation
+--- PASS: TestStart_ContextCancellation (0.00s)
+=== RUN   TestProcessMessage_Success
+--- PASS: TestProcessMessage_Success (0.00s)
+=== RUN   TestProcessMessage_MultipleOdds
+--- PASS: TestProcessMessage_MultipleOdds (0.00s)
+=== RUN   TestProcessMessage_InvalidJSON
+--- PASS: TestProcessMessage_InvalidJSON (0.00s)
+=== RUN   TestProcessMessage_ProducerError
+--- PASS: TestProcessMessage_ProducerError (0.00s)
+=== RUN   TestProcessMessage_EmptyOddsData
+--- PASS: TestProcessMessage_EmptyOddsData (0.00s)
+=== RUN   TestStart_FetchError
+--- PASS: TestStart_FetchError (0.10s)
+=== RUN   TestStart_CommitError
+--- PASS: TestStart_CommitError (0.00s)
+=== RUN   TestStart_ProcessMessageError
+--- PASS: TestStart_ProcessMessageError (0.00s)
+=== RUN   TestConsumerClose_Success
+--- PASS: TestConsumerClose_Success (0.00s)
+=== RUN   TestProcessMessage_NormalizedAtTimestamp
+--- PASS: TestProcessMessage_NormalizedAtTimestamp (0.00s)
+=== RUN   TestProcessMessage_PreservesOriginalFields
+--- PASS: TestProcessMessage_PreservesOriginalFields (0.00s)
+=== RUN   TestProcessMessage_DecimalPrecision
+--- PASS: TestProcessMessage_DecimalPrecision (0.00s)
+=== RUN   TestRawOddsData_Serialization
+--- PASS: TestRawOddsData_Serialization (0.00s)
+=== RUN   TestNewKafkaProducer
+--- PASS: TestNewKafkaProducer (0.00s)
+=== RUN   TestPublishBatch_Success
+--- PASS: TestPublishBatch_Success (0.00s)
+=== RUN   TestPublishBatch_MultipleOdds
+--- PASS: TestPublishBatch_MultipleOdds (0.00s)
+=== RUN   TestPublishBatch_EmptyBatch
+--- PASS: TestPublishBatch_EmptyBatch (0.00s)
+=== RUN   TestPublishBatch_NilBatch
+--- PASS: TestPublishBatch_NilBatch (0.00s)
+=== RUN   TestPublishBatch_KafkaError
+--- PASS: TestPublishBatch_KafkaError (0.00s)
+=== RUN   TestPublishBatch_ContextCancellation
+--- PASS: TestPublishBatch_ContextCancellation (0.00s)
+=== RUN   TestPublishBatch_BatchIDUniqueness
+--- PASS: TestPublishBatch_BatchIDUniqueness (0.00s)
+=== RUN   TestPublishBatch_MessageKey
+--- PASS: TestPublishBatch_MessageKey (0.00s)
+=== RUN   TestPublishBatch_HeadersFormat
+--- PASS: TestPublishBatch_HeadersFormat (0.00s)
+=== RUN   TestPublishBatch_LargeBatch
+--- PASS: TestPublishBatch_LargeBatch (0.00s)
+=== RUN   TestProducerClose_Success
+--- PASS: TestProducerClose_Success (0.00s)
+=== RUN   TestPublishBatch_DecimalPrecision
+--- PASS: TestPublishBatch_DecimalPrecision (0.00s)
+=== RUN   TestKafkaNormalizedOddsMessage_Serialization
+--- PASS: TestKafkaNormalizedOddsMessage_Serialization (0.00s)
+PASS
+coverage: 47.8% of statements in ./internal/...
+ok  	github.com/cypherlabdev/data-normalizer-service/internal/messaging	0.377s	coverage: 47.8% of statements in ./internal/...
+	github.com/cypherlabdev/data-normalizer-service/internal/mocks		coverage: 0.0% of statements
+?   	github.com/cypherlabdev/data-normalizer-service/internal/models	[no test files]

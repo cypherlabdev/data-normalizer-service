@@ -1,0 +1,19 @@
+mode: set
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:19.42,23.2 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:26.62,32.26 4 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:32.26,35.3 2 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:38.2,38.33 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:38.33,41.3 2 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:45.96,51.2 4 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:54.84,55.20 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:55.20,57.3 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:60.2,66.26 6 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:66.26,67.40 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:67.40,69.4 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:70.3,70.35 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:70.35,72.4 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:73.3,75.10 3 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:78.2,83.51 4 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:83.51,85.3 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:87.2,98.3 1 1
+github.com/cypherlabdev/data-normalizer-service/internal/aggregator/odds_aggregator.go:101.60,103.2 1 1
