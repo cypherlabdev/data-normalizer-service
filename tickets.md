@@ -30,16 +30,25 @@
 **Assignee**: sj@cypherlab.tech
 **Dependencies**: ⬆️ ENG-66 (odds-adapter), ⬇️ ENG-74 (odds-optimizer)
 
-## Tickets to Create
+## Proposed New Tickets (Created in Asana)
 
-### 1. [NEW] Implement Service Layer and Normalization Logic (P0)
-- Add service layer with odds normalization algorithms
-- Implement data validation
-- Add deduplication logic
+### 2. Implement Service Layer and Normalization Logic
+**Task ID**: 1211847710933308
+**ENG**: Pending assignment
+**URL**: https://app.asana.com/0/1211254851871080/1211847710933308
+**Priority**: P0
+**Type**: feature
 
-### 2. [NEW] Create README and Documentation (P1)
-- Document normalization algorithms
-- Configuration guide
+### 3. Create README and Documentation
+**Task ID**: 1211847648310944
+**ENG**: Pending assignment
+**URL**: https://app.asana.com/0/1211254851871080/1211847648310944
+**Priority**: P1
+**Type**: documentation
 
-### 3. [NEW] Add Comprehensive Metrics (P2)
-- Normalization metrics, error rates, latency
+### 4. Add Comprehensive Metrics
+**Task ID**: 1211847631576879
+**ENG**: Pending assignment
+**URL**: https://app.asana.com/0/1211254851871080/1211847631576879
+**Priority**: P2
+**Type**: feature
